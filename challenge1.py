@@ -3,7 +3,7 @@ from tkinter import messagebox, scrolledtext
 import os
 
 # Define the absolute file path for the text file
-file_path = "/home/stingo/pwn/data.txt"
+file_path = "data.txt"
 
 # Ensure the text file exists
 if not os.path.exists(file_path):
